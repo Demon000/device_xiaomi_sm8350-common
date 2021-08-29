@@ -747,13 +747,6 @@ odm/etc/NOTICE_GPL.xml.gz
 odm/etc/fs_config_files
 odm/etc/passwd
 odm/etc/fs_config_dirs
-odm/etc/vintf/manifest_haydn.xml
-odm/etc/vintf/manifest_star.xml
-odm/etc/vintf/manifest_renoir.xml
-odm/etc/vintf/manifest_haydnin.xml
-odm/etc/vintf/manifest_mars.xml
-odm/etc/vintf/manifest_cetus.xml
-odm/etc/vintf/manifest_venus.xml
 odm/etc/selinux/precompiled_sepolicy.plat_sepolicy_and_mapping.sha256
 odm/etc/selinux/precompiled_sepolicy.system_ext_sepolicy_and_mapping.sha256
 odm/etc/selinux/precompiled_sepolicy
