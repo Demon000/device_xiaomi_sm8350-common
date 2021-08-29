@@ -977,7 +977,6 @@ vendor/bin/hw/android.hardware.lights-service.qti
 vendor/bin/hw/mfp-daemon
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
 vendor/bin/hw/android.hardware.keymaster@4.1-service-qti
-vendor/bin/hw/android.hardware.boot@1.1-service
 vendor/bin/vndservicemanager
 vendor/bin/qttestservice
 vendor/bin/KmInstallKeybox
@@ -2124,7 +2123,6 @@ vendor/lib64/hw/fingerprint.goodix_fod.so
 vendor/lib64/hw/sound_trigger.primary.lahaina.so
 vendor/lib64/hw/android.hardware.audio@4.0-impl.so
 vendor/lib64/hw/gralloc.default.so
-vendor/lib64/hw/android.hardware.boot@1.0-impl-1.1-qti.so
 vendor/lib64/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/hw/audio.primary.lahaina.so
@@ -2569,7 +2567,6 @@ vendor/etc/init/vendor.qti.hardware.display.composer-service.rc
 vendor/etc/init/vendor.qti.hardware.vibrator.service.rc
 vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc
 vendor/etc/init/ffu.rc
-vendor/etc/init/android.hardware.boot@1.1-service.rc
 vendor/etc/init/android.hardware.cas@1.2-service.rc
 vendor/etc/init/shsusrd.rc
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
@@ -4205,7 +4202,6 @@ vendor/lib/hw/sound_trigger.primary.lahaina.so
 vendor/lib/hw/android.hardware.soundtrigger@2.1-impl.so
 vendor/lib/hw/android.hardware.audio@4.0-impl.so
 vendor/lib/hw/gralloc.default.so
-vendor/lib/hw/android.hardware.boot@1.0-impl-1.1-qti.so
 vendor/lib/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib/hw/audio.primary.lahaina.so
