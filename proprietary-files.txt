@@ -19,7 +19,6 @@ system_ext/bin/dpmd
 system_ext/bin/diag_dci_sample_system
 system_ext/bin/qvrservicetest64
 system_ext/bin/rtspclient
--system_ext/app/DeviceStatisticsService/DeviceStatisticsService.apk
 -system_ext/app/NQNfcNci/NQNfcNci.apk
 -system_ext/app/remoteSimLockAuthentication/remoteSimLockAuthentication.apk
 -system_ext/app/com.qualcomm.qti.services.systemhelper/com.qualcomm.qti.services.systemhelper.apk
@@ -50,18 +49,13 @@ system_ext/bin/rtspclient
 -system_ext/priv-app/WfdService/WfdService.apk
 -system_ext/priv-app/QAS_DVC_MSP/QAS_DVC_MSP.apk
 -system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk
--system_ext/priv-app/WallpaperCropper/WallpaperCropper.apk
 -system_ext/priv-app/CarrierConfig/CarrierConfig.apk
--system_ext/priv-app/MiuiSystemUI/MiuiSystemUI.apk
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 -system_ext/priv-app/ims/ims.apk
--system_ext/priv-app/EmergencyInfo/EmergencyInfo.apk
 -system_ext/priv-app/seccamservice/seccamservice.apk
 -system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk
 -system_ext/priv-app/StorageManager/StorageManager.apk
--system_ext/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer.apk
 -system_ext/priv-app/beyondGnssService/beyondGnssService.apk
--system_ext/priv-app/Settings/Settings.apk
 system_ext/lib64/libseccam.so
 system_ext/lib64/lib-imsvtextutils.so
 system_ext/lib64/libsecureui_svcsock_system.so
@@ -343,8 +337,6 @@ system_ext/lib64/vendor.qti.data.factory@2.1.so
 -system_ext/framework/qti-telephony-utils.jar
 -system_ext/framework/izat.xt.srv.jar
 -system_ext/framework/vendor.qti.hardware.data.latency-V1.0-java.jar
--system_ext/framework/oat/arm64/com.qti.location.sdk.art
--system_ext/framework/oat/arm/com.qti.location.sdk.art
 -system_ext/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar
 -system_ext/framework/wigig-service.jar
 -system_ext/framework/vendor.qti.hardware.capabilityconfigstore-V1.0-java.jar
@@ -376,7 +368,6 @@ system_ext/lib64/vendor.qti.data.factory@2.1.so
 -system_ext/framework/com.qualcomm.qti.uceservice-V2.0-java.jar
 -system_ext/framework/com.quicinc.cne.api-V1.0-java.jar
 -system_ext/framework/com.quicinc.cne.constants-V2.0-java.jar
--system_ext/framework/com.qti.location.sdk.jar
 -system_ext/framework/vendor.qti.data.factory-V2.0-java.jar
 -system_ext/framework/uimremotesimlocklibrary.jar
 -system_ext/framework/vendor.qti.data.slm-V1.0-java.jar
@@ -408,7 +399,6 @@ system_ext/etc/permissions/audiosphere.xml
 system_ext/etc/permissions/qti_telephony_hidl_wrapper.xml
 system_ext/etc/permissions/com.android.systemui.xml
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml
-system_ext/etc/permissions/com.qti.location.sdk.xml
 system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml
 system_ext/etc/permissions/RemoteSimlock.xml
 system_ext/etc/permissions/com.nxp.nfc.nq.xml
