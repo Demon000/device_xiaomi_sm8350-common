@@ -130,10 +130,6 @@ BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(strip $(shell cat $(COMMO
 DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
 
-# Init
-TARGET_INIT_VENDOR_LIB := //$(COMMON_PATH):libinit_xiaomi_sm8350
-TARGET_RECOVERY_DEVICE_MODULES := libinit_xiaomi_sm8350
-
 # Media
 TARGET_USES_ION := true
 TARGET_DISABLED_UBWC := true
