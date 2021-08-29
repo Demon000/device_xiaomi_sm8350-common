@@ -2774,7 +2774,7 @@ vendor/etc/camera/111_GreenOrange.png
 vendor/etc/camera/124_JapaneseStyle.png
 vendor/etc/camera/LDC_PACKDATA_VENDORID_0x01.bin
 vendor/etc/camera/110_BlackGold.png
-vendor/etc/camera/pureShot_parameter.xml
+vendor/etc/camera/pureShot_parameter.xml|2441cf293c7a12b3bd66401e7794b3e4fbf5f4c8
 vendor/etc/camera/camxoverridesettings.txt
 vendor/etc/qdcm_calib_data_Sharp_fhd_video_mode_qsync_dsi_panel.xml
 vendor/etc/ftm_test_config_lahaina-shimaidps-snd-card
