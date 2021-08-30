@@ -847,7 +847,6 @@ vendor/bin/qtigetprop
 vendor/bin/ccid_daemon_nr
 vendor/bin/init.qti.keymaster.sh
 vendor/bin/loc_launcher
-vendor/bin/checkpoint_gc
 vendor/bin/qdcmss
 vendor/bin/xiaomi_extend_cmd
 vendor/bin/init.qcom.efs.sync.sh
