@@ -777,7 +777,6 @@ vendor/bin/ppd
 vendor/bin/wifilearner
 vendor/bin/lowi-server
 vendor/bin/slim_daemon
-vendor/bin/vndservice
 vendor/bin/test_diag
 vendor/bin/init.qcom.coex.sh
 vendor/bin/diag_mdlog
@@ -976,7 +975,6 @@ vendor/bin/hw/android.hardware.lights-service.qti
 vendor/bin/hw/mfp-daemon
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
 vendor/bin/hw/android.hardware.keymaster@4.1-service-qti
-vendor/bin/vndservicemanager
 vendor/bin/qttestservice
 vendor/bin/KmInstallKeybox
 vendor/bin/mlid
@@ -2531,7 +2529,6 @@ vendor/etc/init/init.qti.media.rc
 vendor/etc/init/init.time_daemon.rc
 vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.micharge@1.0-service.rc
-vendor/etc/init/vndservicemanager.rc
 vendor/etc/init/vendor.qti.tftp.rc
 vendor/etc/init/android.hardware.wifi.supplicant-service.rc
 vendor/etc/init/qmipriod.rc
