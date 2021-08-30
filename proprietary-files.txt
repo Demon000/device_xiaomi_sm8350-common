@@ -1018,7 +1018,6 @@ vendor/bin/charge_logger
 vendor/bin/wifidisplayhalservice
 vendor/ueventd.rc
 -vendor/overlay/NetworkStackOverlay.apk
--vendor/overlay/2KProvisionResOverlay.apk
 -vendor/overlay/ElderlyNavigationBarOverlay.apk
 -vendor/overlay/DevicesOverlay.apk
 -vendor/overlay/MccMncOverlay.apk
@@ -1334,8 +1333,6 @@ vendor/firmware/FOD_Motion_Aurora_RTP.bin
 -vendor/app/QFingerprintService/QFingerprintService.apk
 -vendor/app/IWlanService/IWlanService.apk
 -vendor/app/QCC-TR-UI/QCC-TR-UI.apk
-vendor/camera/mimoji/model2.zip
-vendor/camera/mimoji/data.zip
 vendor/camera/fonts/MI+LanTing_GB+Outside+YS_V2.3_20160322.ttf
 vendor/camera/fonts/MFYueYuan-Regular.ttf
 vendor/camera/fonts/FZMiaoWuJW.ttf
