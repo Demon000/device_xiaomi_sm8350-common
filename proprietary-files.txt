@@ -892,7 +892,6 @@ vendor/bin/hw/hostapd
 vendor/bin/hw/vendor.xiaomi.hardware.citsensorservice@1.1-service
 vendor/bin/hw/qcrilNrd
 vendor/bin/hw/vendor.qti.hardware.secureprocessor@1.0
-vendor/bin/hw/android.hardware.dumpstate@1.1-service.xiaomi
 vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service
 vendor/bin/hw/vendor.qti.hardware.eid@1.0-service
 vendor/bin/hw/capabilityconfigstoretest
@@ -2449,7 +2448,6 @@ vendor/etc/init/android.hardware.health@2.1-service.rc
 vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc
 vendor/etc/init/vmmgr.rc
 vendor/etc/init/vendor.xiaomi.hardware.otrpagent@2.0-service.rc
-vendor/etc/init/android.hardware.dumpstate@1.1-service.xiaomi.rc
 vendor/etc/init/wfdvndservice.rc
 vendor/etc/init/vendor.xiaomi.hw.touchfeature@1.0-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.vsimapp@1.0-service.rc
