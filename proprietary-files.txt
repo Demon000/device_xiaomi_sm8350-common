@@ -4,11 +4,8 @@ system_ext/bin/qspmsvc
 system_ext/bin/diag_callback_sample_system
 system_ext/bin/bt_logger
 system_ext/bin/rtspserver
-system_ext/bin/qvrservice
 system_ext/bin/qccsyshalservice
-system_ext/bin/qvrdatalogger
 system_ext/bin/diag_mdlog_system
-system_ext/bin/qvrservicetest
 system_ext/bin/checknv
 system_ext/bin/wfdservice
 system_ext/bin/perfservice
@@ -17,7 +14,6 @@ system_ext/bin/sigma_miracasthalservice
 system_ext/bin/test_diag_system
 system_ext/bin/dpmd
 system_ext/bin/diag_dci_sample_system
-system_ext/bin/qvrservicetest64
 system_ext/bin/rtspclient
 -system_ext/app/NQNfcNci/NQNfcNci.apk
 -system_ext/app/remoteSimLockAuthentication/remoteSimLockAuthentication.apk
@@ -64,7 +60,6 @@ system_ext/lib64/vendor.display.color@1.2.so
 system_ext/lib64/libadsprpc_system.so
 system_ext/lib64/libdpmframework.so
 system_ext/lib64/libsn100nfc_nci_jni.so
-system_ext/lib64/libqvrservice_client.qti.so
 system_ext/lib64/libpngt.so
 system_ext/lib64/libavenhancements.so
 system_ext/lib64/libmmipstreamnetwork.so
@@ -135,7 +130,6 @@ system_ext/lib64/vendor.display.postproc@1.0.so
 system_ext/lib64/vendor.qti.gnss@2.1.so
 system_ext/lib64/libmmiipstreammmihttp.so
 system_ext/lib64/libwfdmminterface.so
-system_ext/lib64/libqvrcamera_client.qti.so
 system_ext/lib64/libcryptfs_hw.so
 system_ext/lib64/libsn100nfc-nci.so
 system_ext/lib64/libwfdrtsp.so
@@ -193,7 +187,6 @@ system_ext/lib64/libdpmfdmgr.so
 system_ext/lib64/libtrigger-handler.so
 system_ext/lib64/libmink-sock-native-api.so
 system_ext/lib64/vendor.qti.hardware.data.qmi@1.0.so
-system_ext/lib64/libqvrservice_ov9282_hvx_tuning.so
 system_ext/lib64/libnqnfc-nci.so
 system_ext/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so
 system_ext/lib64/vendor.qti.ims.rcsconfig@2.1.so
@@ -247,7 +240,6 @@ system_ext/lib64/vendor.qti.hardware.secureprocessor.config@1.0.so
 system_ext/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so
 system_ext/lib64/libvraudio.so
 system_ext/lib64/libframeextension.so
-system_ext/lib64/libqvrservice_ov7251_hvx_tuning.so
 system_ext/lib64/libminksocket_system.so
 system_ext/lib64/libseccam-ipc.so
 system_ext/lib64/vendor.qti.hardware.secureprocessor.common@1.0.so
@@ -266,7 +258,6 @@ system_ext/lib64/libcomposerextn.qti.so
 system_ext/lib64/libdashdatasource.so
 system_ext/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so
 system_ext/lib64/libwfduibcinterface.so
-system_ext/lib64/libqvrservice_v4l_ov7251_hvx_tuning.so
 system_ext/lib64/libcvpcpuRev_skel_system.so
 system_ext/lib64/libwfduibcsinkinterface.so
 system_ext/lib64/libqti-iopd-client_system.so
@@ -382,7 +373,6 @@ system_ext/etc/init/qspmsvc.rc
 system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.0-service.rc
 system_ext/etc/init/checknv.rc
 system_ext/etc/init/com.qualcomm.qti.sigma_miracast@1.0-service.rc
-system_ext/etc/init/qvrd_ext.rc
 system_ext/etc/group
 system_ext/etc/fs_config_files
 system_ext/etc/passwd
@@ -436,21 +426,7 @@ system_ext/etc/fs_config_dirs
 system_ext/etc/public.libraries-qti.txt
 system_ext/etc/seccomp_policy/perfservice.policy
 system_ext/etc/seccomp_policy/wfdservice.policy
-system_ext/etc/seccomp_policy/qvr@2.0.policy
 system_ext/etc/spn-conf.xml
-system_ext/etc/qvr/qvrservice_config.txt
-system_ext/etc/qvr/cfg/341/2/65536/svr845.txt
-system_ext/etc/qvr/cfg/415/0/65536/mtplahaina_6dof_config.xml
-system_ext/etc/qvr/cfg/415/0/65536/mtplahaina.txt
-system_ext/etc/qvr/cfg/356/0/65536/mtp865.txt
-system_ext/etc/qvr/cfg/356/0/65536/mtp865_6dof_config.xml
-system_ext/etc/qvr/cfg/356/1/131072/morpheus_6dof_config.xml
-system_ext/etc/qvr/cfg/356/1/131072/morpheus.txt
-system_ext/etc/qvr/cfg/356/1/65536/trinity.txt
-system_ext/etc/qvr/cfg/356/1/65536/trinity_6dof_config.xml
-system_ext/etc/qvr/cfg/339/0/65536/mtp855_6dof_config.xml
-system_ext/etc/qvr/cfg/339/0/65536/mtp855.txt
-system_ext/etc/qvr/qvr_hid_device_list.txt
 system_ext/etc/dpm/dpm.conf
 system_ext/etc/compatconfig/settings-platform-compat-config.xml
 system_ext/lib/libseccam.so
@@ -463,7 +439,6 @@ system_ext/lib/vendor.display.color@1.2.so
 system_ext/lib/libadsprpc_system.so
 system_ext/lib/libdpmframework.so
 system_ext/lib/libsn100nfc_nci_jni.so
-system_ext/lib/libqvrservice_client.qti.so
 system_ext/lib/libpngt.so
 system_ext/lib/libavenhancements.so
 system_ext/lib/vendor.qti.hardware.data.dynamicdds@1.0.so
@@ -505,7 +480,6 @@ system_ext/lib/vendor.qti.data.slm@1.0.so
 system_ext/lib/vendor.qti.hardware.perf@2.0.so
 system_ext/lib/com.quicinc.cne.constants@1.0.so
 system_ext/lib/libhoaeffects.qti.so
-system_ext/lib/libqvrservice.so
 system_ext/lib/libvr_amb_engine.so
 system_ext/lib/libbt-logClient.so
 system_ext/lib/libimsmedia_jni.so
@@ -528,7 +502,6 @@ system_ext/lib/libwfdmmsink.so
 system_ext/lib/vendor.display.postproc@1.0.so
 system_ext/lib/vendor.qti.gnss@2.1.so
 system_ext/lib/libwfdmminterface.so
-system_ext/lib/libqvrcamera_client.qti.so
 system_ext/lib/libqct_resampler.so
 system_ext/lib/libsn100nfc-nci.so
 system_ext/lib/libwfdrtsp.so
@@ -583,8 +556,6 @@ system_ext/lib/libdpmfdmgr.so
 system_ext/lib/libtrigger-handler.so
 system_ext/lib/libmink-sock-native-api.so
 system_ext/lib/vendor.qti.hardware.data.qmi@1.0.so
-system_ext/lib/libqvr_eyetracking_plugin.so
-system_ext/lib/libqvrservice_ov9282_hvx_tuning.so
 system_ext/lib/libnqnfc-nci.so
 system_ext/lib/vendor.qti.hardware.radio.uim_remote_client@1.2.so
 system_ext/lib/vendor.qti.ims.rcsconfig@2.1.so
@@ -624,7 +595,6 @@ system_ext/lib/liblept.so
 system_ext/lib/libgralloc.qti.so
 system_ext/lib/libmmosal.so
 system_ext/lib/libsensor_calibration.so
-system_ext/lib/libqvr_cam_cdsp_driver_stub.so
 system_ext/lib/libqspmsvc.so
 system_ext/lib/libwfdclient.so
 system_ext/lib/vendor.qti.hardware.qccsyshal@1.0-halimpl.so
@@ -641,7 +611,6 @@ system_ext/lib/vendor.qti.hardware.camera.device@3.5.so
 system_ext/lib/vendor.qti.hardware.wigig.netperftuner@1.0.so
 system_ext/lib/libvraudio.so
 system_ext/lib/libframeextension.so
-system_ext/lib/libqvrservice_ov7251_hvx_tuning.so
 system_ext/lib/libminksocket_system.so
 system_ext/lib/libseccam-ipc.so
 system_ext/lib/vendor.qti.hardware.secureprocessor.common@1.0.so
@@ -659,9 +628,7 @@ system_ext/lib/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so
 system_ext/lib/libcomposerextn.qti.so
 system_ext/lib/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so
 system_ext/lib/libwfduibcinterface.so
-system_ext/lib/libqvrservice_v4l_ov7251_hvx_tuning.so
 system_ext/lib/libcvpcpuRev_skel_system.so
-system_ext/lib/libqvr_cdsp_driver_stub.so
 system_ext/lib/libwfduibcsinkinterface.so
 system_ext/lib/libqti-iopd-client_system.so
 system_ext/lib/libdisplayconfig.qti.so
@@ -669,12 +636,9 @@ system_ext/lib/libqdMetaData.so
 system_ext/lib/vendor.qti.ims.rcsconfig@1.0.so
 system_ext/lib/vendor.qti.hardware.cvp@1.0.so
 system_ext/lib/libwfdaac.so
-system_ext/lib/rfsa/adsp/libdsp_streamer_qvrcam_receiver.so
 system_ext/lib/rfsa/adsp/libtracker_6dof_skel_8350.so
 system_ext/lib/rfsa/adsp/libeye_tracking_dsp_sample_skel.so
 system_ext/lib/rfsa/adsp/libtracker_6dof_skel_8250.so
-system_ext/lib/rfsa/adsp/libqvr_dsp_driver_skel.so
-system_ext/lib/rfsa/adsp/libqvr_cam_dsp_driver_skel.so
 system_ext/lib/rfsa/adsp/libtracker_6dof_skel_8150.so
 system_ext/lib/vendor.display.config@1.4.so
 system_ext/lib/libwfduibcsrc.so
