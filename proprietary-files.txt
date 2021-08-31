@@ -890,7 +890,6 @@ vendor/bin/hw/vendor.xiaomi.hardware.mioob@1.0-service
 vendor/bin/hw/vendor.nxp.hardware.nfc@2.0-service
 vendor/bin/hw/hostapd
 vendor/bin/hw/vendor.xiaomi.hardware.citsensorservice@1.1-service
-vendor/bin/hw/android.hardware.ir@1.0-service
 vendor/bin/hw/qcrilNrd
 vendor/bin/hw/vendor.qti.hardware.secureprocessor@1.0
 vendor/bin/hw/android.hardware.dumpstate@1.1-service.xiaomi
@@ -2126,7 +2125,6 @@ vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so
 vendor/lib64/hw/android.hardware.audio.effect@5.0-impl.so
-vendor/lib64/hw/android.hardware.ir@1.0-impl.so
 vendor/lib64/hw/audio.primary.default.so
 vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so
 vendor/lib64/hw/local_time.default.so
@@ -2459,7 +2457,6 @@ vendor/etc/init/vendor.qti.hardware.secureprocessor@1.0.rc
 vendor/etc/init/android.hardware.media.omx@1.0-service.rc
 vendor/etc/init/init.charge_logger.rc
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
-vendor/etc/init/android.hardware.ir@1.0-service.rc
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
 vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc
 vendor/etc/init/vendor.sensors.sscrpcd.rc
@@ -3893,7 +3890,6 @@ vendor/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib/hw/android.hardware.memtrack@1.0-impl.so
 vendor/lib/hw/android.hardware.audio.effect@5.0-impl.so
-vendor/lib/hw/android.hardware.ir@1.0-impl.so
 vendor/lib/hw/audio.primary.default.so
 vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so
 vendor/lib/hw/local_time.default.so
