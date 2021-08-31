@@ -4,7 +4,6 @@ system_ext/bin/qspmsvc
 system_ext/bin/diag_callback_sample_system
 system_ext/bin/bt_logger
 system_ext/bin/rtspserver
-system_ext/bin/qccsyshalservice
 system_ext/bin/diag_mdlog_system
 system_ext/bin/checknv
 system_ext/bin/wfdservice
@@ -149,7 +148,6 @@ system_ext/lib64/vendor.qti.diaghal@1.0.so
 system_ext/lib64/vendor.qti.hardware.radio.ims@1.4.so
 system_ext/lib64/libmmipstreamsourcehttp.so
 system_ext/lib64/vendor.qti.hardware.radio.am@1.0.so
-system_ext/lib64/vendor.qti.hardware.qccsyshal@1.0.so
 system_ext/lib64/vendor.qti.hardware.sigma_miracast@1.0.so
 system_ext/lib64/libqti-perfd-client_system.so
 system_ext/lib64/extractors/libmmparserextractor.so
@@ -226,7 +224,6 @@ system_ext/lib64/libgralloc.qti.so
 system_ext/lib64/libmmosal.so
 system_ext/lib64/libqspmsvc.so
 system_ext/lib64/libwfdclient.so
-system_ext/lib64/vendor.qti.hardware.qccsyshal@1.0-halimpl.so
 system_ext/lib64/libmmQSM.so
 system_ext/lib64/vendor.display.config@1.2.so
 system_ext/lib64/libvr_sam_wrapper.so
@@ -370,7 +367,6 @@ system_ext/etc/init/wfdservice.rc
 system_ext/etc/init/init.qti.bt.logger.rc
 system_ext/etc/init/perfservice.rc
 system_ext/etc/init/qspmsvc.rc
-system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.0-service.rc
 system_ext/etc/init/checknv.rc
 system_ext/etc/init/com.qualcomm.qti.sigma_miracast@1.0-service.rc
 system_ext/etc/group
@@ -519,7 +515,6 @@ system_ext/lib/vendor.qti.gnss@3.0.so
 system_ext/lib/vendor.qti.diaghal@1.0.so
 system_ext/lib/vendor.qti.hardware.radio.ims@1.4.so
 system_ext/lib/vendor.qti.hardware.radio.am@1.0.so
-system_ext/lib/vendor.qti.hardware.qccsyshal@1.0.so
 system_ext/lib/vendor.qti.hardware.sigma_miracast@1.0.so
 system_ext/lib/libqti-perfd-client_system.so
 system_ext/lib/extractors/libmmparserextractor.so
@@ -597,7 +592,6 @@ system_ext/lib/libmmosal.so
 system_ext/lib/libsensor_calibration.so
 system_ext/lib/libqspmsvc.so
 system_ext/lib/libwfdclient.so
-system_ext/lib/vendor.qti.hardware.qccsyshal@1.0-halimpl.so
 system_ext/lib/vendor.display.config@1.2.so
 system_ext/lib/libvr_sam_wrapper.so
 system_ext/lib/libvraudio_client.qti.so
