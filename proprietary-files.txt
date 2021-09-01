@@ -1,6 +1,5 @@
 # system-ext
 system_ext/build.prop
-system_ext/bin/qspmsvc
 system_ext/bin/diag_callback_sample_system
 system_ext/bin/bt_logger
 system_ext/bin/rtspserver
@@ -222,7 +221,6 @@ system_ext/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 system_ext/lib64/liblept.so
 system_ext/lib64/libgralloc.qti.so
 system_ext/lib64/libmmosal.so
-system_ext/lib64/libqspmsvc.so
 system_ext/lib64/libwfdclient.so
 system_ext/lib64/libmmQSM.so
 system_ext/lib64/vendor.display.config@1.2.so
@@ -366,7 +364,6 @@ system_ext/etc/init/dpmd.rc
 system_ext/etc/init/wfdservice.rc
 system_ext/etc/init/init.qti.bt.logger.rc
 system_ext/etc/init/perfservice.rc
-system_ext/etc/init/qspmsvc.rc
 system_ext/etc/init/checknv.rc
 system_ext/etc/init/com.qualcomm.qti.sigma_miracast@1.0-service.rc
 system_ext/etc/group
@@ -590,7 +587,6 @@ system_ext/lib/liblept.so
 system_ext/lib/libgralloc.qti.so
 system_ext/lib/libmmosal.so
 system_ext/lib/libsensor_calibration.so
-system_ext/lib/libqspmsvc.so
 system_ext/lib/libwfdclient.so
 system_ext/lib/vendor.display.config@1.2.so
 system_ext/lib/libvr_sam_wrapper.so
