@@ -1,3 +1,9 @@
+# Permissions
+etc/permissions/privapp-permissions-qti.xml
+
+# QMI
+etc/sysconfig/qti_whitelist.xml
+
 # system-ext
 system_ext/build.prop
 system_ext/bin/diag_callback_sample_system
