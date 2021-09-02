@@ -2178,7 +2178,6 @@ vendor/lib64/soundfx/libdownmix.so
 vendor/lib64/soundfx/libdynproc.so
 vendor/lib64/soundfx/libvisualizer.so
 vendor/lib64/soundfx/libqcreverb.so
-vendor/lib64/soundfx/libvolumelistener.so
 vendor/lib64/soundfx/libeffectproxy.so
 vendor/lib64/soundfx/libqcompostprocbundle.so
 vendor/lib64/libqcrilNrLogger.so
@@ -3931,7 +3930,6 @@ vendor/lib/soundfx/libdynproc.so
 vendor/lib/soundfx/libvisualizer.so
 vendor/lib/soundfx/libmisoundfx.so
 vendor/lib/soundfx/libqcreverb.so
-vendor/lib/soundfx/libvolumelistener.so
 vendor/lib/soundfx/libeffectproxy.so
 vendor/lib/soundfx/libqcompostprocbundle.so
 vendor/lib/libqcrilNrLogger.so
