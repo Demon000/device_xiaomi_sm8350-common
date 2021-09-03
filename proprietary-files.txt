@@ -109,6 +109,7 @@ system_ext/bin/dpmd
 system_ext/bin/dun-server
 system_ext/bin/perfservice
 system_ext/bin/qccsyshalservice
+system_ext/bin/qspmsvc
 system_ext/bin/rtspclient
 system_ext/bin/rtspserver
 system_ext/bin/sigma_miracasthalservice
@@ -129,6 +130,7 @@ system_ext/etc/init/com.qualcomm.qti.sigma_miracast@1.0-service.rc
 system_ext/etc/init/dpmd.rc
 system_ext/etc/init/init.qti.bt.logger.rc
 system_ext/etc/init/perfservice.rc
+system_ext/etc/init/qspmsvc.rc
 system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.0-service.rc
 system_ext/etc/init/wfdservice.rc
 system_ext/etc/passwd
@@ -254,6 +256,7 @@ system_ext/lib/libqdMetaData.so
 system_ext/lib/libqmi_cci_system.so
 system_ext/lib/libqmi_encdec_system.so
 system_ext/lib/libQSEEComAPI_system.so
+system_ext/lib/libqspmsvc.so
 system_ext/lib/libqti-at.so
 system_ext/lib/libqti-iopd-client_system.so
 system_ext/lib/libqti-perfd-client_system.so
@@ -505,6 +508,7 @@ system_ext/lib64/libqmi_cci_system.so
 system_ext/lib64/libqmi_encdec_system.so
 system_ext/lib64/libQOC.qti.so
 system_ext/lib64/libQSEEComAPI_system.so
+system_ext/lib64/libqspmsvc.so
 system_ext/lib64/libqti-at.so
 system_ext/lib64/libqti-iopd-client_system.so
 system_ext/lib64/libqti-perfd-client_system.so
