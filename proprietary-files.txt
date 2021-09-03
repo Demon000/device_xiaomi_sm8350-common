@@ -108,6 +108,7 @@ system_ext/bin/diag_mdlog_system
 system_ext/bin/dpmd
 system_ext/bin/dun-server
 system_ext/bin/perfservice
+system_ext/bin/qccsyshalservice
 system_ext/bin/rtspclient
 system_ext/bin/rtspserver
 system_ext/bin/sigma_miracasthalservice
@@ -128,6 +129,7 @@ system_ext/etc/init/com.qualcomm.qti.sigma_miracast@1.0-service.rc
 system_ext/etc/init/dpmd.rc
 system_ext/etc/init/init.qti.bt.logger.rc
 system_ext/etc/init/perfservice.rc
+system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.0-service.rc
 system_ext/etc/init/wfdservice.rc
 system_ext/etc/passwd
 system_ext/etc/perf/wlc_model.tflite
@@ -357,6 +359,8 @@ system_ext/lib/vendor.qti.hardware.iop@2.0.so
 system_ext/lib/vendor.qti.hardware.perf@2.0.so
 system_ext/lib/vendor.qti.hardware.perf@2.1.so
 system_ext/lib/vendor.qti.hardware.perf@2.2.so
+system_ext/lib/vendor.qti.hardware.qccsyshal@1.0-halimpl.so
+system_ext/lib/vendor.qti.hardware.qccsyshal@1.0.so
 system_ext/lib/vendor.qti.hardware.qccvndhal@1.0.so
 system_ext/lib/vendor.qti.hardware.qdutils_disp@1.0.so
 system_ext/lib/vendor.qti.hardware.qseecom@1.0.so
@@ -597,6 +601,8 @@ system_ext/lib64/vendor.qti.hardware.iop@2.0.so
 system_ext/lib64/vendor.qti.hardware.perf@2.0.so
 system_ext/lib64/vendor.qti.hardware.perf@2.1.so
 system_ext/lib64/vendor.qti.hardware.perf@2.2.so
+system_ext/lib64/vendor.qti.hardware.qccsyshal@1.0-halimpl.so
+system_ext/lib64/vendor.qti.hardware.qccsyshal@1.0.so
 system_ext/lib64/vendor.qti.hardware.qccvndhal@1.0.so
 system_ext/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 system_ext/lib64/vendor.qti.hardware.qseecom@1.0.so
