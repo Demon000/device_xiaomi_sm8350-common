@@ -97,7 +97,6 @@ etc/sysconfig/qti_whitelist.xml
 -system_ext/priv-app/beyondGnssService/beyondGnssService.apk
 -system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk
 -system_ext/priv-app/ims/ims.apk
--system_ext/priv-app/QAS_DVC_MSP/QAS_DVC_MSP.apk
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 -system_ext/priv-app/seccamservice/seccamservice.apk
 -system_ext/priv-app/WfdService/WfdService.apk
@@ -490,7 +489,6 @@ system_ext/lib64/libmmparser_lite.so
 system_ext/lib64/libmmQSM.so
 system_ext/lib64/libmmrtpdecoder.so
 system_ext/lib64/libmmrtpencoder.so
-system_ext/lib64/libmsp.so
 system_ext/lib64/libnqnfc-nci.so
 system_ext/lib64/libnqnfc_nci_jni.so
 system_ext/lib64/liboemaids_system.so
