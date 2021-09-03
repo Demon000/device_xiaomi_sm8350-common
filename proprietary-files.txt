@@ -95,7 +95,6 @@ etc/sysconfig/qti_whitelist.xml
 -system_ext/framework/vendor.qti.voiceprint-V1.0-java.jar
 -system_ext/framework/wigig-service.jar
 -system_ext/priv-app/beyondGnssService/beyondGnssService.apk
--system_ext/priv-app/CarrierConfig/CarrierConfig.apk
 -system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk
 -system_ext/priv-app/ims/ims.apk
 -system_ext/priv-app/QAS_DVC_MSP/QAS_DVC_MSP.apk
