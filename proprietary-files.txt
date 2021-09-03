@@ -667,7 +667,6 @@ system_ext/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
 -product/framework/ims-ext-common.jar
 product/bin/init.qti.display.sh
 product/build.prop
-product/etc/apns-conf.xml
 product/etc/fs_config_dirs
 product/etc/fs_config_files
 product/etc/group
