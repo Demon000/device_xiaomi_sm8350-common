@@ -752,11 +752,9 @@ vendor/bin/qrtr-ns
 vendor/bin/qseecomd
 vendor/bin/qti
 vendor/bin/rmt_storage
-vendor/bin/sec_nvm
 vendor/bin/sensors.qti
 vendor/bin/shsusrd
 vendor/bin/slim_daemon
-vendor/bin/spdaemon
 vendor/bin/sscrpcd
 vendor/bin/ssgqmigd
 vendor/bin/ssgtzd
@@ -948,7 +946,6 @@ vendor/etc/init/ims_rtp_daemon.rc
 vendor/etc/init/imsdaemon.rc
 vendor/etc/init/init.mfp-daemon.rc
 vendor/etc/init/init.qdmastats.rc
-vendor/etc/init/init.spdaemon.rc
 vendor/etc/init/init.time_daemon.rc
 vendor/etc/init/init.vendor.qti.spu@1.1-service.rc
 vendor/etc/init/init.vendor.sensors.rc
@@ -2603,7 +2600,6 @@ vendor/lib64/libmeters-ns.so
 vendor/lib64/libmeters.so
 vendor/lib64/libmiai_deblur.so
 vendor/lib64/libmiai_portraitsupernight.so
-vendor/lib64/libMIAIHDRhvx_interface.so
 vendor/lib64/libmialgo_ie_capture.so
 vendor/lib64/libmialgo_ie_preview.so
 vendor/lib64/libmialgo_image_colourkeeping.so
