@@ -61,7 +61,6 @@ function configure_zram_parameters() {
 		if [ -f /sys/block/zram0/use_dedup ]; then
 			echo 1 > /sys/block/zram0/use_dedup
 		fi
-		echo "$zRamSizeMB""$diskSizeUnit" > /sys/block/zram0/disksize
 
 		# ZRAM may use more memory than it saves if SLAB_STORE_USER
 		# debug option is enabled.
@@ -102,18 +101,6 @@ function configure_memory_parameters() {
 	echo 100 > /proc/sys/vm/swappiness
 	echo 1 > /proc/sys/vm/watermark_scale_factor
 	echo 0 > /proc/sys/vm/watermark_boost_factor
-
-	# add memory limit to camera cgroup
-	MemTotalStr=`cat /proc/meminfo | grep MemTotal`
-	MemTotal=${MemTotalStr:16:8}
-
-	if [ $MemTotal -gt 8388608 ]; then
-		let LimitSize=838860800
-	else
-		let LimitSize=524288000
-	fi
-
-	echo $LimitSize > /dev/memcg/camera/memory.soft_limit_in_bytes
 }
 
 rev=`cat /sys/devices/soc0/revision`
