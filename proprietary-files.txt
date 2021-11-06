@@ -830,6 +830,10 @@ vendor/etc/camera/deblur_sd_k2_opencl_params.bin
 vendor/etc/camera/deblur_txt_gpu.dlc
 vendor/etc/camera/det_quantize.dlc
 vendor/etc/camera/eisoverridesettings.txt
+vendor/etc/camera/ellc.bin
+vendor/etc/camera/fusion_models/fusion_cache
+vendor/etc/camera/fusion_models/fusion_model
+vendor/etc/camera/fusion_models/fusion_policy
 vendor/etc/camera/GpuKernelRepo.pb
 vendor/etc/camera/LDC_FPC_TUNING_DATA.bin
 vendor/etc/camera/LDC_FPC_TUNING_DATA_AI.bin
@@ -864,6 +868,7 @@ vendor/etc/camera/xiaomi/frontsupernightsnapshotjpeg.json
 vendor/etc/camera/xiaomi/manualsnapshot.json
 vendor/etc/camera/xiaomi/miviinfo.json
 vendor/etc/camera/xiaomi/normalsnapshot.json
+vendor/etc/camera/xiaomi/rearsupernightsnapshot.json
 vendor/etc/camera/xiaomi/satsnapshot.json
 vendor/etc/camera/xiaomi/superhdsnapshot.json
 vendor/etc/camera/xiaomi/thirdpartydualbokehyuvsnapshot.json
@@ -1128,6 +1133,7 @@ vendor/etc/sensors/config/sns_mag_cal.json
 vendor/etc/sensors/config/sns_mag_cal_legacy.json
 vendor/etc/sensors/config/sns_multishake.json
 vendor/etc/sensors/config/sns_nonui.json
+vendor/etc/sensors/config/sns_oem13.json
 vendor/etc/sensors/config/sns_pedometer.json
 vendor/etc/sensors/config/sns_rmd.json
 vendor/etc/sensors/config/sns_rotv.json
@@ -1174,6 +1180,7 @@ vendor/etc/sensors/proto/sns_diag.proto
 vendor/etc/sensors/proto/sns_diag_sensor.proto
 vendor/etc/sensors/proto/sns_distance_bound.proto
 vendor/etc/sensors/proto/sns_dpc.proto
+vendor/etc/sensors/proto/sns_eqm.proto
 vendor/etc/sensors/proto/sns_ext_svc.proto
 vendor/etc/sensors/proto/sns_facing.proto
 vendor/etc/sensors/proto/sns_flicker.proto
@@ -1257,8 +1264,14 @@ vendor/etc/thermal-class0.conf
 vendor/etc/thermal-engine.conf
 vendor/etc/thermal-map.conf
 vendor/etc/thermal-mgame.conf
+vendor/etc/thermal-navigation.conf
 vendor/etc/thermal-nolimits.conf
 vendor/etc/thermal-normal.conf
+vendor/etc/thermal-per-camera.conf
+vendor/etc/thermal-per-class0.conf
+vendor/etc/thermal-per-navigation.conf
+vendor/etc/thermal-per-normal.conf
+vendor/etc/thermal-per-video.conf
 vendor/etc/thermal-phone.conf
 vendor/etc/thermal-tgame.conf
 vendor/etc/thermal-video.conf
@@ -1567,6 +1580,7 @@ vendor/firmware/vpu20_4v.b19
 vendor/firmware/vpu20_4v.mbn
 vendor/firmware/vpu20_4v.mdt
 vendor/firmware/wigig/wigig.ini
+vendor/firmware/WindChime_RTP.bin
 vendor/lib/android.hardware.audio.common-util.so
 vendor/lib/android.hardware.audio.common@2.0-util.so
 vendor/lib/android.hardware.audio.common@4.0-util.so
@@ -1793,6 +1807,7 @@ vendor/lib/libmialgoengine.so
 vendor/lib/libminkdescriptor.so
 vendor/lib/libminksocket.so
 vendor/lib/libmiracast.so
+vendor/lib/libmiXmlParser.so
 vendor/lib/libmm-color-convertor.so
 vendor/lib/libmm-hdcpmgr.so
 vendor/lib/libmm-omxcore.so
@@ -1916,6 +1931,7 @@ vendor/lib/librcc.so
 vendor/lib/librecovery_updater.so
 vendor/lib/librecovery_updater_msm.so
 vendor/lib/libreference-ril.so
+vendor/lib/libresampler.so
 vendor/lib/libreverse_rpc_tests_skel.so
 vendor/lib/libril-db.so
 vendor/lib/libril-qc-ltedirectdisc.so
@@ -2162,8 +2178,11 @@ vendor/lib/vendor.qti.qspmhal@1.0.so
 vendor/lib/vendor.qti.spu@1.0.so
 vendor/lib/vendor.qti.spu@1.1.so
 vendor/lib/vendor.qti.voiceprint@1.0.so
+vendor/lib/vendor.xiaomi.hardware.cameraperf@1.0-impl.so
+vendor/lib/vendor.xiaomi.hardware.cameraperf@1.0.so
 vendor/lib/vndk/libstagefright_foundation.so
 vendor/lib/vndk/libstagefright_omx.so
+vendor/lib/vndk/libxlog.so
 vendor/lib64/android.hardware.audio.common-util.so
 vendor/lib64/android.hardware.audio.common@2.0-util.so
 vendor/lib64/android.hardware.audio.common@4.0-util.so
@@ -2282,6 +2301,8 @@ vendor/lib64/camera/plugins/com.xiaomi.plugin.bodyslim.so
 vendor/lib64/camera/plugins/com.xiaomi.plugin.capbokeh.so
 vendor/lib64/camera/plugins/com.xiaomi.plugin.dc.so
 vendor/lib64/camera/plugins/com.xiaomi.plugin.depurple.so
+vendor/lib64/camera/plugins/com.xiaomi.plugin.ellc.so
+vendor/lib64/camera/plugins/com.xiaomi.plugin.fusion.so
 vendor/lib64/camera/plugins/com.xiaomi.plugin.hdr.so
 vendor/lib64/camera/plugins/com.xiaomi.plugin.ldc.so
 vendor/lib64/camera/plugins/com.xiaomi.plugin.memcpy.so
@@ -2289,6 +2310,8 @@ vendor/lib64/camera/plugins/com.xiaomi.plugin.miaideblur.so
 vendor/lib64/camera/plugins/com.xiaomi.plugin.miaiie.so
 vendor/lib64/camera/plugins/com.xiaomi.plugin.mibokeh.so
 vendor/lib64/camera/plugins/com.xiaomi.plugin.misegment.so
+vendor/lib64/camera/plugins/com.xiaomi.plugin.rearsupernight.so
+vendor/lib64/camera/plugins/com.xiaomi.plugin.sigframe.so
 vendor/lib64/camera/plugins/com.xiaomi.plugin.skinbeautifier.so
 vendor/lib64/camera/plugins/com.xiaomi.plugin.sr.so
 vendor/lib64/camera/plugins/com.xiaomi.plugin.supermoon.so
@@ -2427,6 +2450,7 @@ vendor/lib64/libalCFR.so
 vendor/lib64/libalhLDC.so
 vendor/lib64/libalLDC.so
 vendor/lib64/libalsautils.so
+vendor/lib64/libanc_dc_base.so
 vendor/lib64/libanc_hdr.so
 vendor/lib64/libancbase.so
 vendor/lib64/libaoa.so
@@ -2526,6 +2550,7 @@ vendor/lib64/libdualcam_optical_zoom_control.so
 vendor/lib64/libdualcam_video_optical_zoom.so
 vendor/lib64/libeffects.so
 vendor/lib64/libeffectsconfig.so
+vendor/lib64/libellc.so
 vendor/lib64/libexthwplugin.so
 vendor/lib64/libface3d_dev.so
 vendor/lib64/libFace3D_hlos.so
@@ -2616,8 +2641,10 @@ vendor/lib64/libmibokeh_855.so
 vendor/lib64/libmibokeh_mask_dsp.so
 vendor/lib64/libminkdescriptor.so
 vendor/lib64/libminksocket.so
+vendor/lib64/libminziparchive.so
 vendor/lib64/libmiphone_preview_bokeh.so
 vendor/lib64/libmiracast.so
+vendor/lib64/libmiXmlParser.so
 vendor/lib64/libmm-color-convertor.so
 vendor/lib64/libmm-hdcpmgr.so
 vendor/lib64/libmm-omxcore.so
@@ -2754,6 +2781,7 @@ vendor/lib64/librelight_only.so
 vendor/lib64/libremosaic_wrapper.so
 vendor/lib64/libremosaichvx_stub.so
 vendor/lib64/libremosaiclib.so
+vendor/lib64/libresampler.so
 vendor/lib64/libreverse_rpc_tests_skel.so
 vendor/lib64/libril-db.so
 vendor/lib64/libril-qc-ltedirectdisc.so
@@ -2832,6 +2860,7 @@ vendor/lib64/libvpphvx.so
 vendor/lib64/libvppimmotion.so
 vendor/lib64/libvpplibrary.so
 vendor/lib64/libvpptestutils.so
+vendor/lib64/libwa_opticalzoom_fusion.so
 vendor/lib64/libwapi_cert.so
 vendor/lib64/libwebrtc_audio_preprocessing.so
 vendor/lib64/libwfddisplayconfig_proprietary.so
@@ -2978,3 +3007,5 @@ vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so
+vendor/lib64/vendor.xiaomi.hardware.cameraperf@1.0-impl.so
+vendor/lib64/vendor.xiaomi.hardware.cameraperf@1.0.so
