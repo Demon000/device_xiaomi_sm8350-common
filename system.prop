@@ -1,5 +1,7 @@
 # Bluetooth
 persist.vendor.btstack.aac_frm_ctl.enabled=true
+persist.vendor.btstack.enable.swb=true
+persist.vendor.btstack.enable.swbpm=true
 ro.bluetooth.library_name=libbluetooth_qti.so
 
 # Camera
