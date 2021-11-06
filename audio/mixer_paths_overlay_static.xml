@@ -1011,7 +1011,7 @@
 
     <!--  One MIC devices -->
     <path name="amic2">
-        <ctl name="TX DEC0 MUX" value="SWR_MIC" />
+        <ctl name="TX DEC2 MUX" value="SWR_MIC" />
         <ctl name="TX SMIC MUX2" value="SWR_MIC5" />
         <ctl name="TX_AIF1_CAP Mixer DEC2" value="1" />
         <ctl name="TX_CDC_DMA_TX_3 Channels" value="One" />
@@ -1026,7 +1026,7 @@
     </path>
 
     <path name="headset-mic">
-        <ctl name="TX_DEC0 Volume" value="84" />
+        <ctl name="TX_DEC2 Volume" value="84" />
         <path name="amic2" />
     </path>
 
@@ -1064,8 +1064,10 @@
         <ctl name="ADC4 MUX" value="INP5" />
         <ctl name="TX3 MODE" value="ADC_LP" />
         <ctl name="ADC4_MIXER Switch" value="1" />
-        <ctl name="ADC1 Volume" value="12" />
-        <ctl name="ADC4 Volume" value="12" />
+        <ctl name="TX_DEC0 Volume" value="90" />
+        <ctl name="TX_DEC1 Volume" value="90" />
+        <ctl name="ADC1 Volume" value="20" />
+        <ctl name="ADC4 Volume" value="20" />
     </path>
 
     <!-- Dual MIC devices -->

@@ -89,7 +89,7 @@
         <param out_channels="1"/> <!-- Module output channels -->
         <param dam_token_id="1"/>
         <param kw_start_tolerance="360"/>
-        <param kw_end_tolerance="240"/>
+        <param kw_end_tolerance="140"/>
 
         <arm_ss_usecase>
             <!-- Options are "KEYWORD_DETECTION", "USER_VERIFICATION", "CUSTOM_DETECTION"  -->
