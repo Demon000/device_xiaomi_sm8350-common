@@ -41,7 +41,6 @@ PRODUCT_PACKAGES += \
     libqcompostprocbundle
 
 PRODUCT_PACKAGES += \
-    audioadsprpcd \
     audio.primary.lahaina \
     audio.a2dp.default \
     audio.usb.default \
